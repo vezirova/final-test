@@ -5,7 +5,7 @@
     "color": "зелен",
     "game": "LEGO",
     "food": "сладолед",
-    "image": ""
+    "image": "img/david.png"
   },
   {
     "name": "Сюзан",
@@ -13,7 +13,7 @@
     "color": "син",
     "game": "кукла Барби",
     "food": "крем карамел",
-    "image": ""
+    "image": "img/susan.jpg"
   },
   {
     "name": "Брайън",
@@ -21,7 +21,7 @@
     "color": "лилаво",
     "game": "футбол",
     "food": "хот дог",
-    "image": ""
+    "image": "img/brian.jpg"
   },
   {
     "name": "Ашли",
@@ -29,7 +29,7 @@
     "color": "розово",
     "game": "кукли",
     "food": "пуканки",
-    "image": ""
+    "image": "img/ashley.jpg"
   },
   {
     "name": "Ема",
@@ -37,7 +37,7 @@
     "color": "оранжево",
     "game": "криеница",
     "food": "торта",
-    "image": ""
+    "image": "img/ema.jpg"
   },
   {
     "name": "Том",
@@ -45,6 +45,6 @@
     "color": "червено",
     "game": "фризби",
     "food": "ябълки",
-    "image": ""
+    "image": "img/tom.png"
   }
 ]

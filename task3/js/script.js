@@ -1,4 +1,9 @@
-$(document).ready(function () {
+/* global $ */
+(function () {
+  "use strict";
 
-});
+  function Kid() {
+  }
+
+})();
 
