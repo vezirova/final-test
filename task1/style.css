@@ -39,3 +39,28 @@ ul > li img {
 }
 
 /* Вашият CSS от тук надолу */
+
+@media (min-width: 1000px) {
+    #subtask1 ul > li img {
+        width: calc(100%/6);
+        width: 400px;
+        max-width: 100%;
+    }    
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+    #subtask1 ul > li img {
+        width: calc(100%/3);
+        flex-wrap: wrap-reverse;
+        width: 800px;
+        max-width: 100%;
+    }    
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+    #subtask1 ul > li img {
+        width: calc(100%/2);
+        flex-wrap: wrap-reverse;
+        width: 800px;
+        max-width: 100%;
+}

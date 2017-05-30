@@ -4,23 +4,55 @@
 // Сортирайте следния списък от числа във възходящ ред:
 var arr = [2, 5, 8, 4, 1, 12];
 
+function compare(a, b) {
+    if (a > b) {
+        return 1;
+    }
+    if (a < b) {
+        return -1;
+    }
+    return 0;
+}
+
+console.log(arr.sort(compare));
+
 //...
 
 // задача 2 (4т.)
 // Напишете функция, която да изважда всички думи, с дължина над 4 символа от следния текст:
 var text = "The quick brown fox jumps over the lazy dog";
 
+var newText = text.split(" ");
+console.log(newText);
+
+function sort(word) {
+    return word.length > 4;
+}
+console.log(newText.filter(sort));
+
 // ...
 
 // задача 3 (5т.)
 // Напишете код, който на всяка секунда закача към `#container` елемента следния html елемент: `<p>repetition is fun</p>`
+window.setTimeout(after30seconds, 3000);
 
+function after30seconds() {
+    var myText = document.getElementById("container");
+    myText.innerHTML = "<p>repetition is fun</p>";
+}
 // ...
 
 // задача 4 (6т.)
 // Направете така, че 2 секунди след зареждането на дадена страница, всички картинки в нея да се завъртят по вертикалната си ос (по Y)
+window.setTimeout(after10seconds, 1000);
 
+//function after10seconds() {
+//    var myImage = document.getElementById(images).getElementsByTagName('img');
+//    myImage.style.transform = "rotate(100deg)";
+//}
 // ...
+
+}
 
 // задача 5 (6т.)
 // Напишете функция, която да сортира следния списък от обекти по полето `price`:
@@ -47,4 +79,7 @@ var items = [
   }
 ];
 
+items.sort(function(a, b) {
+    return parseFloat(a.price) - parseFloat(b.price);
+});
 // ...
